@@ -11,8 +11,8 @@ function Footer() {
             <Fade bottom>
                 <div className="contact-content">
                     <h1>
-                        Let’s create your next<br></br>
-                        <span className="amazing-color">experience together</span></h1>
+                        <span className="amazing-color1">Let’s create your next</span><br></br>
+                        <span className="amazing-color2">experience together</span></h1>
                     <a href={`mailto:${data.contactEmail}`} className="email">{data.contactEmail}</a>
                     <ul>
                         {data.social.map((link, index) => (

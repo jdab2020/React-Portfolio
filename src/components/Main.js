@@ -8,7 +8,7 @@ function Main () {
             <div className="about-content">
             <h1><Fade bottom cascade>About.</Fade></h1>
             <Fade bottom>
-                    <p>{data.abouttext}</p>
+                    <p className="amazing-color3">{data.abouttext}</p>
             </Fade>
             </div>
             {data.ShowAboutImage ? <img src={data.aboutImage}></img> : null}
